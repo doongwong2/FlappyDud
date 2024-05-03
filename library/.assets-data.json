@@ -1,0 +1,234 @@
+{
+  "d85d4f7b-ca6b-479a-8fe3-9bb529ffc3a8": {
+    "url": "db://assets/Game Res",
+    "value": {},
+    "versionCode": 0
+  },
+  "4a63bf18-e5cc-4a84-a64f-34f34f2adcb1": {
+    "url": "db://assets/Game Res/Background",
+    "value": {},
+    "versionCode": 0
+  },
+  "d6ed2f90-9d47-4753-be80-bf14c2611df8": {
+    "url": "db://assets/Game Res/Bird",
+    "value": {},
+    "versionCode": 0
+  },
+  "ee962bbf-4b9f-45d9-b0b7-b2431fac6e88": {
+    "url": "db://assets/Game Res/Fonts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f2a003c7-d189-4181-bda4-1dcafd1996ac": {
+    "url": "db://assets/Game Res/Ground",
+    "value": {},
+    "versionCode": 0
+  },
+  "16263d2f-efa5-4136-ad63-18be787eb543": {
+    "url": "db://assets/Game Res/Pipes",
+    "value": {},
+    "versionCode": 0
+  },
+  "25cfbf47-c451-47da-9e0f-a5458086ac67": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 0
+  },
+  "86258682-7498-4e34-9567-364614964029": {
+    "url": "db://assets/Scenes",
+    "value": {},
+    "versionCode": 0
+  },
+  "9d9b5b6d-6ab9-442e-a478-32c916028a08": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 0
+  },
+  "91e6ca2b-f920-422d-b4f8-19a24aeebad3": {
+    "url": "db://assets/Animations",
+    "value": {},
+    "versionCode": 0
+  },
+  "66fb9096-96b1-4c17-8a26-4de624cb33e1": {
+    "url": "db://assets/Game Res/Background/background-day.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "66fb9096-96b1-4c17-8a26-4de624cb33e1@6c48a": {
+    "url": "db://assets/Game Res/Background/background-day.png@6c48a",
+    "value": {
+      "depends": [
+        "66fb9096-96b1-4c17-8a26-4de624cb33e1"
+      ]
+    },
+    "versionCode": 0
+  },
+  "66fb9096-96b1-4c17-8a26-4de624cb33e1@f9941": {
+    "url": "db://assets/Game Res/Background/background-day.png@f9941",
+    "value": {
+      "depends": [
+        "66fb9096-96b1-4c17-8a26-4de624cb33e1@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0bf5b504-93f4-4269-ad4f-a6167a825306": {
+    "url": "db://assets/Game Res/Pipes/pipe-green.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0bf5b504-93f4-4269-ad4f-a6167a825306@6c48a": {
+    "url": "db://assets/Game Res/Pipes/pipe-green.png@6c48a",
+    "value": {
+      "depends": [
+        "0bf5b504-93f4-4269-ad4f-a6167a825306"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0bf5b504-93f4-4269-ad4f-a6167a825306@f9941": {
+    "url": "db://assets/Game Res/Pipes/pipe-green.png@f9941",
+    "value": {
+      "depends": [
+        "0bf5b504-93f4-4269-ad4f-a6167a825306@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "170ab031-2dc0-4fcd-a438-27eba2af047b": {
+    "url": "db://assets/Game Res/Bird/yellowbird-upflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "170ab031-2dc0-4fcd-a438-27eba2af047b@6c48a": {
+    "url": "db://assets/Game Res/Bird/yellowbird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "170ab031-2dc0-4fcd-a438-27eba2af047b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "170ab031-2dc0-4fcd-a438-27eba2af047b@f9941": {
+    "url": "db://assets/Game Res/Bird/yellowbird-upflap.png@f9941",
+    "value": {
+      "depends": [
+        "170ab031-2dc0-4fcd-a438-27eba2af047b@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "09fe04b7-32d4-4431-a196-5a472a11bd2c": {
+    "url": "db://assets/Game Res/Bird/yellowbird-downflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "09fe04b7-32d4-4431-a196-5a472a11bd2c@6c48a": {
+    "url": "db://assets/Game Res/Bird/yellowbird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "09fe04b7-32d4-4431-a196-5a472a11bd2c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "09fe04b7-32d4-4431-a196-5a472a11bd2c@f9941": {
+    "url": "db://assets/Game Res/Bird/yellowbird-downflap.png@f9941",
+    "value": {
+      "depends": [
+        "09fe04b7-32d4-4431-a196-5a472a11bd2c@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e9bec56d-9996-4ec4-a51d-dfef4efe31f5": {
+    "url": "db://assets/Game Res/Bird/yellowbird-midflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e9bec56d-9996-4ec4-a51d-dfef4efe31f5@6c48a": {
+    "url": "db://assets/Game Res/Bird/yellowbird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "e9bec56d-9996-4ec4-a51d-dfef4efe31f5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e9bec56d-9996-4ec4-a51d-dfef4efe31f5@f9941": {
+    "url": "db://assets/Game Res/Bird/yellowbird-midflap.png@f9941",
+    "value": {
+      "depends": [
+        "e9bec56d-9996-4ec4-a51d-dfef4efe31f5@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1468f2e1-cee3-45fa-8c00-b189e2c4dd3d": {
+    "url": "db://assets/Game Res/Fonts/FlappyBirdRegular-9Pq0.ttf",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "08c14b7e-284a-43e6-8108-10d4caaf1bd5": {
+    "url": "db://assets/Game Res/Ground/base.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "08c14b7e-284a-43e6-8108-10d4caaf1bd5@6c48a": {
+    "url": "db://assets/Game Res/Ground/base.png@6c48a",
+    "value": {
+      "depends": [
+        "08c14b7e-284a-43e6-8108-10d4caaf1bd5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "08c14b7e-284a-43e6-8108-10d4caaf1bd5@f9941": {
+    "url": "db://assets/Game Res/Ground/base.png@f9941",
+    "value": {
+      "depends": [
+        "08c14b7e-284a-43e6-8108-10d4caaf1bd5@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f18df699-8e83-4ff8-8581-bafeb09047b7": {
+    "url": "db://assets/Scenes/Gamescene.scene",
+    "value": {
+      "depends": [
+        "f18df699-8e83-4ff8-8581-bafeb09047b7",
+        "66fb9096-96b1-4c17-8a26-4de624cb33e1@f9941",
+        "e9bec56d-9996-4ec4-a51d-dfef4efe31f5@f9941",
+        "08c14b7e-284a-43e6-8108-10d4caaf1bd5@f9941"
+      ],
+      "dependScripts": [
+        "6dc030d0-b166-4c62-b35c-2969f01a4a2c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "01566b62-5007-4ce7-8fd3-52fd14dd540c": {
+    "url": "db://assets/Scripts/NewComponent.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6dc030d0-b166-4c62-b35c-2969f01a4a2c": {
+    "url": "db://assets/Scripts/Ground.ts",
+    "value": {},
+    "versionCode": 0
+  }
+}

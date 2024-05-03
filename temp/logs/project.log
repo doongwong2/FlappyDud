@@ -1,0 +1,28 @@
+5-2-2024 00:37:55 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+5-2-2024 00:37:56 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+5-2-2024 00:37:56 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
+5-2-2024 00:38:11 - log: [Scene] meshopt wasm decoder initialized
+5-2-2024 00:38:11 - log: [Scene] [box2d]:box2d wasm lib loaded.
+5-2-2024 00:38:11 - log: [Scene] [bullet]:bullet wasm lib loaded.
+5-2-2024 00:38:12 - log: [Scene] [PHYSICS]: using builtin.
+5-2-2024 00:38:12 - log: [Scene] Cocos Creator v3.8.2
+5-2-2024 00:38:12 - info: [Scene] Forward render pipeline initialized.
+5-2-2024 00:38:13 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-2-2024 00:39:28 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
+5-2-2024 01:04:29 - info: [PreviewInEditor] preview process is ready
+5-2-2024 01:04:29 - log: [PreviewInEditor] meshopt wasm decoder initialized
+5-2-2024 01:04:29 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+5-2-2024 01:04:29 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+5-2-2024 01:04:30 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+5-2-2024 01:04:30 - log: [PreviewInEditor] Cocos Creator v3.8.2
+5-2-2024 01:04:30 - info: [PreviewInEditor] Forward render pipeline initialized.
+5-2-2024 01:04:31 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-2-2024 01:04:40 - info: [PreviewInEditor] preview process is ready
+5-2-2024 01:05:33 - error: Error occurred in handler for 'GUEST_VIEW_MANAGER_CALL': Error: Invalid guestInstanceId: 6
+    at getGuestForWebContents (electron/js2c/browser_init.js:181:6307)
+    at electron/js2c/browser_init.js:181:5372
+    at electron/js2c/browser_init.js:181:1637
+    at electron/js2c/browser_init.js:197:579
+    at Object.<anonymous> (electron/js2c/browser_init.js:161:9782)
+    at Object.emit (events.js:315:20)
+    at Object.emit (domain.js:467:12)

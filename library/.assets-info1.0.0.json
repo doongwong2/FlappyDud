@@ -1,0 +1,155 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res.meta": {
+      "time": 1714556241806.2183
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res": {
+      "time": 1714556295968.713,
+      "uuid": "d85d4f7b-ca6b-479a-8fe3-9bb529ffc3a8"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Background.meta": {
+      "time": 1714556247232.7664
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Background": {
+      "time": 1714556698036.0022,
+      "uuid": "4a63bf18-e5cc-4a84-a64f-34f34f2adcb1"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Bird.meta": {
+      "time": 1714556268808.704
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Bird": {
+      "time": 1714556725257.1206,
+      "uuid": "d6ed2f90-9d47-4753-be80-bf14c2611df8"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Fonts.meta": {
+      "time": 1714556282619.4685
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Fonts": {
+      "time": 1714556737615.972,
+      "uuid": "ee962bbf-4b9f-45d9-b0b7-b2431fac6e88"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Ground.meta": {
+      "time": 1714556289364.992
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Ground": {
+      "time": 1714556754195.3032,
+      "uuid": "f2a003c7-d189-4181-bda4-1dcafd1996ac"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Pipes.meta": {
+      "time": 1714556295969.71
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Pipes": {
+      "time": 1714556711796.4932,
+      "uuid": "16263d2f-efa5-4136-ad63-18be787eb543"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Prefabs.meta": {
+      "time": 1714556320571.7124
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Prefabs": {
+      "time": 1714556320566.726,
+      "uuid": "25cfbf47-c451-47da-9e0f-a5458086ac67"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scenes.meta": {
+      "time": 1714556331390.3318
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scenes": {
+      "time": 1714556914376.4521,
+      "uuid": "86258682-7498-4e34-9567-364614964029"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts.meta": {
+      "time": 1714556355828.716
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts": {
+      "time": 1714581561552.5967,
+      "uuid": "9d9b5b6d-6ab9-442e-a478-32c916028a08"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Animations.meta": {
+      "time": 1714556369053.6465
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Animations": {
+      "time": 1714556369051.6523,
+      "uuid": "91e6ca2b-f920-422d-b4f8-19a24aeebad3"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Background\\background-day.png.meta": {
+      "time": 1714556698058.9407
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Background\\background-day.png": {
+      "time": 1672921039000,
+      "uuid": "66fb9096-96b1-4c17-8a26-4de624cb33e1"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Pipes\\pipe-green.png.meta": {
+      "time": 1714556711824.4165
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Pipes\\pipe-green.png": {
+      "time": 1672921039000,
+      "uuid": "0bf5b504-93f4-4269-ad4f-a6167a825306"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Bird\\yellowbird-upflap.png.meta": {
+      "time": 1714556725274.076
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Bird\\yellowbird-downflap.png.meta": {
+      "time": 1714556725292.0283
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Bird\\yellowbird-midflap.png.meta": {
+      "time": 1714556725308.0112
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Bird\\yellowbird-upflap.png": {
+      "time": 1672921039000,
+      "uuid": "170ab031-2dc0-4fcd-a438-27eba2af047b"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Bird\\yellowbird-downflap.png": {
+      "time": 1672921039000,
+      "uuid": "09fe04b7-32d4-4431-a196-5a472a11bd2c"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Bird\\yellowbird-midflap.png": {
+      "time": 1672921039000,
+      "uuid": "e9bec56d-9996-4ec4-a51d-dfef4efe31f5"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Fonts\\FlappyBirdRegular-9Pq0.ttf.meta": {
+      "time": 1714556737627.9377
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Fonts\\FlappyBirdRegular-9Pq0.ttf": {
+      "time": 1708076728000,
+      "uuid": "1468f2e1-cee3-45fa-8c00-b189e2c4dd3d"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Ground\\base.png.meta": {
+      "time": 1714556754209.255
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Ground\\base.png": {
+      "time": 1672921039000,
+      "uuid": "08c14b7e-284a-43e6-8108-10d4caaf1bd5"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scenes\\Gamescene.scene.meta": {
+      "time": 1714556914379.4436
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scenes\\Gamescene.scene": {
+      "time": 1714583131839.929,
+      "uuid": "f18df699-8e83-4ff8-8581-bafeb09047b7"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\Ground.ts.meta": {
+      "time": 1714581561553.594
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\Ground.ts": {
+      "time": 1714582847353.6829,
+      "uuid": "6dc030d0-b166-4c62-b35c-2969f01a4a2c"
+    }
+  },
+  "missing": {
+    "4a63bf18-e5cc-4a84-a64f-34f34f2adcb1": {
+      "path": "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\folder",
+      "time": 1714556247227.781,
+      "removeTime": 1714556262239
+    },
+    "d6ed2f90-9d47-4753-be80-bf14c2611df8": {
+      "path": "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Background\\Bird",
+      "time": 1714556268806.7085,
+      "removeTime": 1714556275617
+    },
+    "01566b62-5007-4ce7-8fd3-52fd14dd540c": {
+      "path": "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\NewComponent.ts",
+      "time": 1714581520918.1252,
+      "removeTime": 1714581546740
+    }
+  }
+}

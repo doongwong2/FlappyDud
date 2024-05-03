@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz",
+        "version": "Windows 10 Home"
+    },
+    "sceneListMap": {
+        "f18df699-8e83-4ff8-8581-bafeb09047b7": "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scenes\\Gamescene.scene"
+    },
+    "deviceMd5": "5294361b3466f32c3f1bd20b99973b1a"
+}
