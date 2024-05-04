@@ -213,10 +213,15 @@
         "f18df699-8e83-4ff8-8581-bafeb09047b7",
         "66fb9096-96b1-4c17-8a26-4de624cb33e1@f9941",
         "e9bec56d-9996-4ec4-a51d-dfef4efe31f5@f9941",
+        "d65d2b4a-5d91-43b9-b9dd-71f26cb3a8fc",
+        "1468f2e1-cee3-45fa-8c00-b189e2c4dd3d",
         "08c14b7e-284a-43e6-8108-10d4caaf1bd5@f9941"
       ],
       "dependScripts": [
-        "6dc030d0-b166-4c62-b35c-2969f01a4a2c"
+        "42556c44-e911-4d0d-80b1-614138c02fcd",
+        "6dc030d0-b166-4c62-b35c-2969f01a4a2c",
+        "c65e066c-aad7-4210-80d3-09ea2630e2f1",
+        "f3bdc668-eb63-4343-a034-aafbd79eee4b"
       ]
     },
     "versionCode": 0
@@ -229,6 +234,32 @@
   "6dc030d0-b166-4c62-b35c-2969f01a4a2c": {
     "url": "db://assets/Scripts/Ground.ts",
     "value": {},
+    "versionCode": 0
+  },
+  "42556c44-e911-4d0d-80b1-614138c02fcd": {
+    "url": "db://assets/Scripts/GameCtrl.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f3bdc668-eb63-4343-a034-aafbd79eee4b": {
+    "url": "db://assets/Scripts/Results.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c65e066c-aad7-4210-80d3-09ea2630e2f1": {
+    "url": "db://assets/Scripts/Bird.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d65d2b4a-5d91-43b9-b9dd-71f26cb3a8fc": {
+    "url": "db://assets/Animations/birdAnimation.anim",
+    "value": {
+      "depends": [
+        "170ab031-2dc0-4fcd-a438-27eba2af047b@f9941",
+        "e9bec56d-9996-4ec4-a51d-dfef4efe31f5@f9941",
+        "09fe04b7-32d4-4431-a196-5a472a11bd2c@f9941"
+      ]
+    },
     "versionCode": 0
   }
 }

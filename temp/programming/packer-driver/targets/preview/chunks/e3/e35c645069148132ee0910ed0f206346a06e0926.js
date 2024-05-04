@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Vec3, UITransform, director, Canvas, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, Ground;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Vec3, UITransform, director, Canvas, GameCtrl, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, Ground;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -9,8 +9,14 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfGameCtrl(extras) {
+    _reporterNs.report("GameCtrl", "./GameCtrl", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
@@ -21,6 +27,8 @@ System.register(["cc"], function (_export, _context) {
       UITransform = _cc.UITransform;
       director = _cc.director;
       Canvas = _cc.Canvas;
+    }, function (_unresolved_2) {
+      GameCtrl = _unresolved_2.GameCtrl;
     }],
     execute: function () {
       _crd = true;
@@ -59,7 +67,10 @@ System.register(["cc"], function (_export, _context) {
           this.tempStartLocation1 = new Vec3();
           this.tempStartLocation2 = new Vec3();
           this.tempStartLocation3 = new Vec3();
-          this.gameSpeed = 50;
+          this.gameCtrlSpeed = new (_crd && GameCtrl === void 0 ? (_reportPossibleCrUseOfGameCtrl({
+            error: Error()
+          }), GameCtrl) : GameCtrl)();
+          this.gameSpeed = void 0;
         }
 
         onLoad() //only executes one time.
@@ -80,6 +91,7 @@ System.register(["cc"], function (_export, _context) {
         }
 
         update(deltaTime) {
+          this.gameSpeed = this.gameCtrlSpeed.speed;
           this.tempStartLocation1 = this.ground1.position;
           this.tempStartLocation2 = this.ground2.position;
           this.tempStartLocation3 = this.ground3.position;

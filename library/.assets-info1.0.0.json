@@ -61,14 +61,14 @@
       "time": 1714556355828.716
     },
     "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts": {
-      "time": 1714581561552.5967,
+      "time": 1714813814488.8777,
       "uuid": "9d9b5b6d-6ab9-442e-a478-32c916028a08"
     },
     "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Animations.meta": {
       "time": 1714556369053.6465
     },
     "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Animations": {
-      "time": 1714556369051.6523,
+      "time": 1714814365142.694,
       "uuid": "91e6ca2b-f920-422d-b4f8-19a24aeebad3"
     },
     "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Game Res\\Background\\background-day.png.meta": {
@@ -124,15 +124,43 @@
       "time": 1714556914379.4436
     },
     "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scenes\\Gamescene.scene": {
-      "time": 1714583131839.929,
+      "time": 1714815132917.4631,
       "uuid": "f18df699-8e83-4ff8-8581-bafeb09047b7"
     },
     "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\Ground.ts.meta": {
       "time": 1714581561553.594
     },
     "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\Ground.ts": {
-      "time": 1714582847353.6829,
+      "time": 1714807254056.38,
       "uuid": "6dc030d0-b166-4c62-b35c-2969f01a4a2c"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\GameCtrl.ts.meta": {
+      "time": 1714803450421.3914
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\GameCtrl.ts": {
+      "time": 1714814140218.5354,
+      "uuid": "42556c44-e911-4d0d-80b1-614138c02fcd"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\Results.ts.meta": {
+      "time": 1714805114389.337
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\Results.ts": {
+      "time": 1714806700883.2961,
+      "uuid": "f3bdc668-eb63-4343-a034-aafbd79eee4b"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\Bird.ts.meta": {
+      "time": 1714813814490.8667
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Scripts\\Bird.ts": {
+      "time": 1714814991323.8591,
+      "uuid": "c65e066c-aad7-4210-80d3-09ea2630e2f1"
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Animations\\birdAnimation.anim.meta": {
+      "time": 1714814365163.6392
+    },
+    "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets\\Animations\\birdAnimation.anim": {
+      "time": 1714815063864.8257,
+      "uuid": "d65d2b4a-5d91-43b9-b9dd-71f26cb3a8fc"
     }
   },
   "missing": {

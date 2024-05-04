@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 13515.978199958801,
+      "mTimestamp": 13880.06139999628,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1423764.33950001,
+      "mTimestamp": 11757629.8143,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -427,7 +427,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts",
+          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -436,7 +436,49 @@
             },
             "end": {
               "line": 5,
+              "column": 80
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 84
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
               "column": 82
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 83
             }
           }
         }
@@ -453,7 +495,28 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts"
           },
           "messages": []
         }
@@ -565,11 +628,15 @@
     },
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts": {
       "mTimestamp": {
-        "mtime": 1714582847353.6829,
+        "mtime": 1714807254056.38,
         "uuid": "6dc030d0-b166-4c62-b35c-2969f01a4a2c"
       },
       "chunkId": "e35c645069148132ee0910ed0f206346a06e0926",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -586,6 +653,271 @@
             "end": {
               "line": 1,
               "column": 84
+            }
+          }
+        },
+        {
+          "value": "./GameCtrl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 23
+            },
+            "end": {
+              "line": 4,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1714814140218.5354,
+        "uuid": "42556c44-e911-4d0d-80b1-614138c02fcd"
+      },
+      "chunkId": "92d1703d401a0ac162e0b0d8abfe3fcf68d91f3d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 103
+            },
+            "end": {
+              "line": 1,
+              "column": 107
+            }
+          }
+        },
+        {
+          "value": "./Ground",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 23
+            },
+            "end": {
+              "line": 4,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./Results",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 24
+            },
+            "end": {
+              "line": 5,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./Bird",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 21
+            },
+            "end": {
+              "line": 6,
+              "column": 29
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1714803239802,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts": {
+      "mTimestamp": {
+        "mtime": 1714806700883.2961,
+        "uuid": "f3bdc668-eb63-4343-a034-aafbd79eee4b"
+      },
+      "chunkId": "8ee8eddf78e72e712e5d9bcbe146be37736666d7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts": {
+      "mTimestamp": {
+        "mtime": 1714814991323.8591,
+        "uuid": "c65e066c-aad7-4210-80d3-09ea2630e2f1"
+      },
+      "chunkId": "057501cea874a2a6941dbe4fa70aedb04bbd93da",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 76
+            },
+            "end": {
+              "line": 1,
+              "column": 80
             }
           }
         }
