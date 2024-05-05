@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 13880.06139999628,
+      "mTimestamp": 19980.910600066185,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 11757629.8143,
+      "mTimestamp": 1859457.4248000383,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -469,7 +469,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts",
+          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -478,6 +478,20 @@
             },
             "end": {
               "line": 8,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
               "column": 83
             }
           }
@@ -510,6 +524,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts"
           },
           "messages": []
         },
@@ -712,7 +733,7 @@
     },
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1714814140218.5354,
+        "mtime": 1714916994559.5508,
         "uuid": "42556c44-e911-4d0d-80b1-614138c02fcd"
       },
       "chunkId": "92d1703d401a0ac162e0b0d8abfe3fcf68d91f3d",
@@ -837,7 +858,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1714803239802,
+      "mTimestamp": 1714915471672,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -897,7 +918,7 @@
     },
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts": {
       "mTimestamp": {
-        "mtime": 1714814991323.8591,
+        "mtime": 1714837768347.193,
         "uuid": "c65e066c-aad7-4210-80d3-09ea2630e2f1"
       },
       "chunkId": "057501cea874a2a6941dbe4fa70aedb04bbd93da",
@@ -918,6 +939,58 @@
             "end": {
               "line": 1,
               "column": 80
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts": {
+      "mTimestamp": {
+        "mtime": 1714917327335.294,
+        "uuid": "f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b"
+      },
+      "chunkId": "0820acf4f6fd0e813a0334423a1151424f4f70a4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 77
+            },
+            "end": {
+              "line": 1,
+              "column": 81
             }
           }
         }

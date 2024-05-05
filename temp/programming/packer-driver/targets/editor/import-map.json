@@ -6,6 +6,7 @@
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts": "./chunks/05/057501cea874a2a6941dbe4fa70aedb04bbd93da.js",
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts": "./chunks/92/92d1703d401a0ac162e0b0d8abfe3fcf68d91f3d.js",
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts": "./chunks/e3/e35c645069148132ee0910ed0f206346a06e0926.js",
+    "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts": "./chunks/08/0820acf4f6fd0e813a0334423a1151424f4f70a4.js",
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts": "./chunks/8e/8ee8eddf78e72e712e5d9bcbe146be37736666d7.js"
   },
   "scopes": {
@@ -46,9 +47,13 @@
       "__unresolved_1": "./chunks/05/057501cea874a2a6941dbe4fa70aedb04bbd93da.js",
       "__unresolved_2": "./chunks/92/92d1703d401a0ac162e0b0d8abfe3fcf68d91f3d.js",
       "__unresolved_3": "./chunks/e3/e35c645069148132ee0910ed0f206346a06e0926.js",
-      "__unresolved_4": "./chunks/8e/8ee8eddf78e72e712e5d9bcbe146be37736666d7.js"
+      "__unresolved_4": "./chunks/08/0820acf4f6fd0e813a0334423a1151424f4f70a4.js",
+      "__unresolved_5": "./chunks/8e/8ee8eddf78e72e712e5d9bcbe146be37736666d7.js"
     },
     "./chunks/8e/8ee8eddf78e72e712e5d9bcbe146be37736666d7.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/08/0820acf4f6fd0e813a0334423a1151424f4f70a4.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/e3/e35c645069148132ee0910ed0f206346a06e0926.js": {

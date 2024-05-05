@@ -34,7 +34,14 @@ export class Bird extends Component {
         this.birdAnimation.stop();
 
         tween(this.node.position)
-            .to(this.jumpDuration, new Vec3(this.node.position.x,this.node.position.y + this.jumpHeight,0));
+            .to(this.jumpDuration, new Vec3(this.node.position.x,this.node.position.y + this.jumpHeight,0), {easing: "smooth",
+                onUpdate: (target: Vec3, ratio: number) => {
+                    this.node.position = target;
+                }
+            })
+            .start()
+
+        this.birdAnimation.play();
     }
 }
 

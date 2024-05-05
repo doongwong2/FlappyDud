@@ -4,6 +4,7 @@ const { ccclass, property } = _decorator;
 import { Ground } from './Ground';
 import { Results } from './Results';
 import { Bird } from './Bird';
+import { Pipes } from './Pipes';
 
 @ccclass('GameCtrl')
 export class GameCtrl extends Component {
@@ -48,6 +49,10 @@ export class GameCtrl extends Component {
 
     initListener(){
         input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this)
+
+        this.node.on(Node.EventType.TOUCH_START,() => {
+            this.bird.fly();
+        });
     }
 
     onKeyDown(event: EventKeyboard){
@@ -62,6 +67,7 @@ export class GameCtrl extends Component {
 
             case KeyCode.KEY_Q:
                 this.resetGame();
+                this.bird.resetBird();
                 break;
             
         }
@@ -81,6 +87,10 @@ export class GameCtrl extends Component {
         this.result.resetScore();
 
         this.startGame();
+    }
+
+    passPipe(){
+        this.result.addScore();
     }
 }
 

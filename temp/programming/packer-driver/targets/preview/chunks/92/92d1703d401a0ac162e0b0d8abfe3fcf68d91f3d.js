@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, CCInteger, input, Input, KeyCode, director, Ground, Results, Bird, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, CCInteger, input, Input, KeyCode, director, Ground, Results, Bird, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -30,6 +30,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      Node = _cc.Node;
       CCInteger = _cc.CCInteger;
       input = _cc.input;
       Input = _cc.Input;
@@ -96,6 +97,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         initListener() {
           input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
+          this.node.on(Node.EventType.TOUCH_START, () => {
+            this.bird.fly();
+          });
         }
 
         onKeyDown(event) {
@@ -110,6 +114,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
             case KeyCode.KEY_Q:
               this.resetGame();
+              this.bird.resetBird();
               break;
           }
         }
@@ -127,6 +132,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         resetGame() {
           this.result.resetScore();
           this.startGame();
+        }
+
+        passPipe() {
+          this.result.addScore();
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "ground", [_dec2], {
