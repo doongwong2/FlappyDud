@@ -4,7 +4,7 @@ const { ccclass, property } = _decorator;
 import { Ground } from './Ground';
 import { Results } from './Results';
 import { Bird } from './Bird';
-import { Pipes } from './Pipes';
+import { PipePool } from './PipePool';
 
 @ccclass('GameCtrl')
 export class GameCtrl extends Component {
@@ -26,6 +26,11 @@ export class GameCtrl extends Component {
         tooltip:'bird here'
     })
     public bird: Bird
+
+    @property({
+        type: PipePool
+    })
+    public pipeQueue: PipePool;
 
     @property({
         type: CCInteger
@@ -85,12 +90,16 @@ export class GameCtrl extends Component {
 
     resetGame(){
         this.result.resetScore();
-
+        this.pipeQueue.reset();
         this.startGame();
     }
 
     passPipe(){
         this.result.addScore();
+    }
+
+    createPipe(){
+        this.pipeQueue.addPool();
     }
 }
 

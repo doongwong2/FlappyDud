@@ -215,14 +215,15 @@
         "e9bec56d-9996-4ec4-a51d-dfef4efe31f5@f9941",
         "d65d2b4a-5d91-43b9-b9dd-71f26cb3a8fc",
         "1468f2e1-cee3-45fa-8c00-b189e2c4dd3d",
-        "0bf5b504-93f4-4269-ad4f-a6167a825306@f9941",
-        "08c14b7e-284a-43e6-8108-10d4caaf1bd5@f9941"
+        "08c14b7e-284a-43e6-8108-10d4caaf1bd5@f9941",
+        "43238840-1f85-4458-a7a9-d4caaf0cf8b7"
       ],
       "dependScripts": [
         "42556c44-e911-4d0d-80b1-614138c02fcd",
         "6dc030d0-b166-4c62-b35c-2969f01a4a2c",
         "c65e066c-aad7-4210-80d3-09ea2630e2f1",
-        "f3bdc668-eb63-4343-a034-aafbd79eee4b"
+        "f3bdc668-eb63-4343-a034-aafbd79eee4b",
+        "3da08807-65c8-4cf2-894b-ef326568e55e"
       ]
     },
     "versionCode": 0
@@ -265,6 +266,23 @@
   },
   "f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b": {
     "url": "db://assets/Scripts/Pipes.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "43238840-1f85-4458-a7a9-d4caaf0cf8b7": {
+    "url": "db://assets/Prefabs/Pipe.prefab",
+    "value": {
+      "depends": [
+        "0bf5b504-93f4-4269-ad4f-a6167a825306@f9941"
+      ],
+      "dependScripts": [
+        "f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3da08807-65c8-4cf2-894b-ef326568e55e": {
+    "url": "db://assets/Scripts/PipePool.ts",
     "value": {},
     "versionCode": 0
   }

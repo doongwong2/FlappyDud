@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, CCInteger, input, Input, KeyCode, director, Ground, Results, Bird, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, CCInteger, input, Input, KeyCode, director, Ground, Results, Bird, PipePool, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -19,6 +19,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
   function _reportPossibleCrUseOfBird(extras) {
     _reporterNs.report("Bird", "./Bird", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfPipePool(extras) {
+    _reporterNs.report("PipePool", "./PipePool", _context.meta, extras);
   }
 
   return {
@@ -42,6 +46,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       Results = _unresolved_3.Results;
     }, function (_unresolved_4) {
       Bird = _unresolved_4.Bird;
+    }, function (_unresolved_5) {
+      PipePool = _unresolved_5.PipePool;
     }],
     execute: function () {
       _crd = true;
@@ -71,8 +77,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }), Bird) : Bird,
         tooltip: 'bird here'
       }), _dec5 = property({
-        type: CCInteger
+        type: _crd && PipePool === void 0 ? (_reportPossibleCrUseOfPipePool({
+          error: Error()
+        }), PipePool) : PipePool
       }), _dec6 = property({
+        type: CCInteger
+      }), _dec7 = property({
         type: CCInteger
       }), _dec(_class = (_class2 = class GameCtrl extends Component {
         constructor() {
@@ -84,9 +94,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           _initializerDefineProperty(this, "bird", _descriptor3, this);
 
-          _initializerDefineProperty(this, "speed", _descriptor4, this);
+          _initializerDefineProperty(this, "pipeQueue", _descriptor4, this);
 
-          _initializerDefineProperty(this, "pipeSpeed", _descriptor5, this);
+          _initializerDefineProperty(this, "speed", _descriptor5, this);
+
+          _initializerDefineProperty(this, "pipeSpeed", _descriptor6, this);
         }
 
         onLoad() {
@@ -131,11 +143,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         resetGame() {
           this.result.resetScore();
+          this.pipeQueue.reset();
           this.startGame();
         }
 
         passPipe() {
           this.result.addScore();
+        }
+
+        createPipe() {
+          this.pipeQueue.addPool();
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "ground", [_dec2], {
@@ -153,14 +170,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "speed", [_dec5], {
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "pipeQueue", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "speed", [_dec6], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return 300;
         }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "pipeSpeed", [_dec6], {
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "pipeSpeed", [_dec7], {
         configurable: true,
         enumerable: true,
         writable: true,

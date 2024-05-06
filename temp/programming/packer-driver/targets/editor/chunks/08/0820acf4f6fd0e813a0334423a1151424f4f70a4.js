@@ -94,6 +94,10 @@ System.register(["cc"], function (_export, _context) {
           if (this.isPass == false && this.topPipe.position.x <= 0) {
             this.isPass = true;
             this.game.passPipe();
+          }
+
+          if (this.topPipe.position.x < 0 - this.scene.width) {
+            this.game.createPipe();
             this.destroy();
           }
         }

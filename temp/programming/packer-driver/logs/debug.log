@@ -1,27 +1,27 @@
-21:24:51 debug: 5/5/2024, 9:24:51 PM
-21:24:51 debug: Project: C:\Users\User\Desktop\programs\FlappyDud
-21:24:51 debug: Targets: editor,preview
-21:24:51 debug: Incremental file seems great.
-21:24:51 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
-21:24:51 debug: Initializing target [Editor]
-21:24:51 debug: Loading cache
-21:24:51 debug: Loading cache costs 7.390300035476685ms.
-21:24:51 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
-21:24:51 debug: Our import map(foo:/bar): {
+11:24:25 debug: 5/6/2024, 11:24:25 AM
+11:24:25 debug: Project: C:\Users\User\Desktop\programs\FlappyDud
+11:24:25 debug: Targets: editor,preview
+11:24:25 debug: Incremental file seems great.
+11:24:25 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+11:24:25 debug: Initializing target [Editor]
+11:24:25 debug: Loading cache
+11:24:25 debug: Loading cache costs 21.52300000190735ms.
+11:24:25 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
+11:24:25 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-21:24:51 debug: Initializing target [Preview]
-21:24:51 debug: Loading cache
-21:24:51 debug: Loading cache costs 8.079200029373169ms.
-21:24:51 debug: Our import map(foo:/bar): {
+11:24:25 debug: Initializing target [Preview]
+11:24:25 debug: Loading cache
+11:24:25 debug: Loading cache costs 8.41100001335144ms.
+11:24:25 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-21:24:51 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
-21:24:51 debug: Reset databases. Enumerated domains: [
+11:24:25 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+11:24:25 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
     "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets"
@@ -31,280 +31,400 @@
     "physical": "C:\\Users\\User\\Desktop\\programs\\FlappyDud\\assets"
   }
 ]
-21:24:51 debug: Our import map(foo:/bar): {
+11:24:25 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/"
   }
 }
-21:24:51 debug: Our import map(foo:/bar): {
+11:24:25 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/"
   }
 }
-21:24:51 debug: Pulling asset-db.
-21:24:51 debug: Fetch asset-db cost: 14.775200009346008ms.
-21:24:51 debug: Build iteration starts.
-Number of accumulated asset changes: 5
+11:24:25 debug: Pulling asset-db.
+11:24:25 debug: Fetch asset-db cost: 13.2496999502182ms.
+11:24:25 debug: Build iteration starts.
+Number of accumulated asset changes: 6
 Feature changed: false
-21:24:51 debug: Target(editor) build started.
-21:24:51 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (GMT+08:00)
-21:24:51 debug: Inspect cce:/internal/x/cc
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-21:24:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:16:03 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (GMT+08:00)
-21:24:51 debug: Inspect cce:/internal/x/prerequisite-imports
-21:24:51 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:24:51 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:24:51 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
-21:24:51 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat May 04 2024 22:37:31 GMT+0800 (GMT+08:00), Current mtime: Sun May 05 2024 21:24:31 GMT+0800 (GMT+08:00)
-21:24:51 debug: Inspect cce:/internal/code-quality/cr.mjs
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:24:51 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/code-quality/cr.mjs.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve ./GameCtrl from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:24:51 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:24:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:24:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:24:51 debug: Target(editor) ends with cost 227.08290004730225ms.
-21:24:51 debug: Target(preview) build started.
-21:24:51 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (GMT+08:00)
-21:24:51 debug: Inspect cce:/internal/x/cc
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-21:24:51 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-21:24:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:16:03 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (GMT+08:00)
-21:24:51 debug: Inspect cce:/internal/x/prerequisite-imports
-21:24:51 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:24:51 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:24:51 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
-21:24:51 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat May 04 2024 22:37:31 GMT+0800 (GMT+08:00), Current mtime: Sun May 05 2024 21:24:31 GMT+0800 (GMT+08:00)
-21:24:51 debug: Inspect cce:/internal/code-quality/cr.mjs
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:24:51 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/code-quality/cr.mjs.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve ./GameCtrl from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:24:51 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
-21:24:51 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:24:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:24:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:24:52 debug: Target(preview) ends with cost 190.83370006084442ms.
-21:24:52 debug: Pulling asset-db.
-21:24:53 debug: Fetch asset-db cost: 1289.0598999261856ms.
-21:24:53 debug: Build iteration starts.
-Number of accumulated asset changes: 5
+11:24:25 debug: Target(editor) build started.
+11:24:25 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (GMT+08:00)
+11:24:25 debug: Inspect cce:/internal/x/cc
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+11:24:25 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+11:24:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:30:59 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (GMT+08:00)
+11:24:25 debug: Inspect cce:/internal/x/prerequisite-imports
+11:24:26 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:24:26 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+11:24:26 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+11:24:26 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sun May 05 2024 21:24:31 GMT+0800 (GMT+08:00), Current mtime: Mon May 06 2024 11:24:11 GMT+0800 (GMT+08:00)
+11:24:26 debug: Inspect cce:/internal/code-quality/cr.mjs
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+11:24:26 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/code-quality/cr.mjs.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve ./GameCtrl from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+11:24:26 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+11:24:26 debug: Target(editor) ends with cost 195.93190002441406ms.
+11:24:26 debug: Target(preview) build started.
+11:24:26 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (GMT+08:00)
+11:24:26 debug: Inspect cce:/internal/x/cc
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+11:24:26 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+11:24:26 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:30:59 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (GMT+08:00)
+11:24:26 debug: Inspect cce:/internal/x/prerequisite-imports
+11:24:26 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:24:26 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+11:24:26 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+11:24:26 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sun May 05 2024 21:24:31 GMT+0800 (GMT+08:00), Current mtime: Mon May 06 2024 11:24:11 GMT+0800 (GMT+08:00)
+11:24:26 debug: Inspect cce:/internal/code-quality/cr.mjs
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+11:24:26 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/code-quality/cr.mjs.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve ./GameCtrl from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+11:24:26 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+11:24:26 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+11:24:26 debug: Target(preview) ends with cost 168.27789998054504ms.
+11:24:26 debug: Pulling asset-db.
+11:24:27 debug: Fetch asset-db cost: 1076.9952999353409ms.
+11:24:27 debug: Build iteration starts.
+Number of accumulated asset changes: 6
 Feature changed: false
-21:24:53 debug: Target(editor) build started.
-21:24:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (GMT+08:00)
-21:24:53 debug: Inspect cce:/internal/x/prerequisite-imports
-21:24:53 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:24:53 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:24:53 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:24:53 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:24:53 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:24:53 debug: Target(editor) ends with cost 85.44739997386932ms.
-21:24:53 debug: Target(preview) build started.
-21:24:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (GMT+08:00)
-21:24:53 debug: Inspect cce:/internal/x/prerequisite-imports
-21:24:53 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:24:53 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:24:53 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:24:53 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:24:53 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:24:53 debug: Target(preview) ends with cost 73.29670000076294ms.
-21:28:31 debug: Dispatch build request for time accumulated 1 asset changes.
-21:28:31 debug: Build iteration starts.
+11:24:27 debug: Target(editor) build started.
+11:24:27 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (GMT+08:00)
+11:24:27 debug: Inspect cce:/internal/x/prerequisite-imports
+11:24:27 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+11:24:27 debug: Target(editor) ends with cost 97.17790007591248ms.
+11:24:27 debug: Target(preview) build started.
+11:24:27 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (GMT+08:00)
+11:24:27 debug: Inspect cce:/internal/x/prerequisite-imports
+11:24:27 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+11:24:27 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+11:24:27 debug: Target(preview) ends with cost 74.27180004119873ms.
+11:39:38 debug: Dispatch build request for time accumulated 1 asset changes.
+11:39:38 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
-21:28:31 debug: Target(editor) build started.
-21:28:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:03:59 GMT+0800 (GMT+08:00)
-21:28:31 debug: Inspect cce:/internal/x/prerequisite-imports
-21:28:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
-21:28:31 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts
-21:28:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:28:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:28:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:28:31 debug: Target(editor) ends with cost 123.80940008163452ms.
-21:28:31 debug: Target(preview) build started.
-21:28:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:03:59 GMT+0800 (GMT+08:00)
-21:28:31 debug: Inspect cce:/internal/x/prerequisite-imports
-21:28:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
-21:28:31 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts
-21:28:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:28:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:28:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:28:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:28:31 debug: Target(preview) ends with cost 141.4789000749588ms.
-21:32:51 debug: Dispatch build request for time accumulated 1 asset changes.
-21:32:51 debug: Build iteration starts.
+11:39:38 debug: Target(editor) build started.
+11:39:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:15:26 GMT+0800 (GMT+08:00)
+11:39:38 debug: Inspect cce:/internal/x/prerequisite-imports
+11:39:38 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+11:39:38 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts
+11:39:38 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+11:39:38 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+11:39:38 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+11:39:38 debug: Target(editor) ends with cost 142.72619998455048ms.
+11:39:38 debug: Target(preview) build started.
+11:39:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:15:26 GMT+0800 (GMT+08:00)
+11:39:38 debug: Inspect cce:/internal/x/prerequisite-imports
+11:39:38 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+11:39:38 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts
+11:39:38 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+11:39:38 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+11:39:38 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+11:39:38 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+11:39:38 debug: Target(preview) ends with cost 166.48570001125336ms.
+12:15:15 debug: Dispatch build request for time accumulated 1 asset changes.
+12:15:15 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
-21:32:51 debug: Target(editor) build started.
-21:32:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:59 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:08:19 GMT+0800 (GMT+08:00)
-21:32:51 debug: Inspect cce:/internal/x/prerequisite-imports
-21:32:51 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
-21:32:51 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts. Last mtime: Sun May 05 2024 21:28:31 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b, Current mtime: Sun May 05 2024 21:32:48 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b
-21:32:51 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts
-21:32:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:32:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:32:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:32:51 debug: Target(editor) ends with cost 185.51660001277924ms.
-21:32:51 debug: Target(preview) build started.
-21:32:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:59 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:08:19 GMT+0800 (GMT+08:00)
-21:32:51 debug: Inspect cce:/internal/x/prerequisite-imports
-21:32:51 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
-21:32:51 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts. Last mtime: Sun May 05 2024 21:28:31 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b, Current mtime: Sun May 05 2024 21:32:48 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b
-21:32:51 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts
-21:32:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:32:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:32:51 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:32:51 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:32:51 debug: Target(preview) ends with cost 156.30129992961884ms.
-21:55:30 debug: Dispatch build request for time accumulated 2 asset changes.
-21:55:30 debug: Build iteration starts.
-Number of accumulated asset changes: 2
+12:15:15 debug: Target(editor) build started.
+12:15:15 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:15:26 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:51:03 GMT+0800 (GMT+08:00)
+12:15:15 debug: Inspect cce:/internal/x/prerequisite-imports
+12:15:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:15:15 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts. Last mtime: Mon May 06 2024 11:39:38 GMT+0800 (GMT+08:00)@3da08807-65c8-4cf2-894b-ef326568e55e, Current mtime: Mon May 06 2024 12:15:13 GMT+0800 (GMT+08:00)@3da08807-65c8-4cf2-894b-ef326568e55e
+12:15:15 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts
+12:15:15 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:15:15 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:15:15 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:15:15 debug: Target(editor) ends with cost 242.228600025177ms.
+12:15:15 debug: Target(preview) build started.
+12:15:15 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:15:26 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:51:03 GMT+0800 (GMT+08:00)
+12:15:15 debug: Inspect cce:/internal/x/prerequisite-imports
+12:15:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:15:15 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts. Last mtime: Mon May 06 2024 11:39:38 GMT+0800 (GMT+08:00)@3da08807-65c8-4cf2-894b-ef326568e55e, Current mtime: Mon May 06 2024 12:15:13 GMT+0800 (GMT+08:00)@3da08807-65c8-4cf2-894b-ef326568e55e
+12:15:15 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts
+12:15:15 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:15:15 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:15:15 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+12:15:15 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:15:15 debug: Target(preview) ends with cost 222.3970000743866ms.
+12:17:35 debug: Dispatch build request for time accumulated 1 asset changes.
+12:17:35 debug: Build iteration starts.
+Number of accumulated asset changes: 1
 Feature changed: false
-21:55:30 debug: Target(editor) build started.
-21:55:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:19 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:30:59 GMT+0800 (GMT+08:00)
-21:55:30 debug: Inspect cce:/internal/x/prerequisite-imports
-21:55:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:55:30 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:55:30 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:55:30 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts. Last mtime: Sat May 04 2024 23:53:33 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd, Current mtime: Sun May 05 2024 21:49:54 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd
-21:55:30 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts
-21:55:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
-21:55:30 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:55:30 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:55:30 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:55:30 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:55:30 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:55:30 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:55:30 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:55:30 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
-21:55:30 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts. Last mtime: Sun May 05 2024 21:32:48 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b, Current mtime: Sun May 05 2024 21:55:27 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b
-21:55:30 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts
-21:55:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:55:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:55:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:55:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:55:31 debug: Target(editor) ends with cost 292.7232999801636ms.
-21:55:31 debug: Target(preview) build started.
-21:55:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:19 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:30:59 GMT+0800 (GMT+08:00)
-21:55:31 debug: Inspect cce:/internal/x/prerequisite-imports
-21:55:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-21:55:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:55:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
-21:55:31 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts. Last mtime: Sat May 04 2024 23:53:33 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd, Current mtime: Sun May 05 2024 21:49:54 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd
-21:55:31 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts
-21:55:31 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
-21:55:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:55:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:55:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
-21:55:31 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:55:31 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:55:31 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
-21:55:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
-21:55:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
-21:55:31 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts. Last mtime: Sun May 05 2024 21:32:48 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b, Current mtime: Sun May 05 2024 21:55:27 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b
-21:55:31 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts
-21:55:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:55:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:55:31 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
-21:55:31 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
-21:55:31 debug: Target(preview) ends with cost 293.53079998493195ms.
+12:17:35 debug: Target(editor) build started.
+12:17:35 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:03 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:53:23 GMT+0800 (GMT+08:00)
+12:17:35 debug: Inspect cce:/internal/x/prerequisite-imports
+12:17:35 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+12:17:35 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts. Last mtime: Sun May 05 2024 21:49:54 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd, Current mtime: Mon May 06 2024 12:17:34 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd
+12:17:35 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts
+12:17:35 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+12:17:35 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:17:35 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:17:35 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:17:35 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:17:35 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:17:35 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:17:35 debug: Resolve ./PipePool from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:17:35 debug: Target(editor) ends with cost 173.1947000026703ms.
+12:17:35 debug: Target(preview) build started.
+12:17:35 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:03 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:53:23 GMT+0800 (GMT+08:00)
+12:17:35 debug: Inspect cce:/internal/x/prerequisite-imports
+12:17:35 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+12:17:35 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts. Last mtime: Sun May 05 2024 21:49:54 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd, Current mtime: Mon May 06 2024 12:17:34 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd
+12:17:35 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts
+12:17:35 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+12:17:35 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:17:35 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:17:35 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:17:35 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:17:35 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:17:35 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:17:35 debug: Resolve ./PipePool from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+12:17:35 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:17:35 debug: Target(preview) ends with cost 281.23009991645813ms.
+12:18:43 debug: Dispatch build request for time accumulated 1 asset changes.
+12:18:43 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+12:18:43 debug: Target(editor) build started.
+12:18:43 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:53:23 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:54:31 GMT+0800 (GMT+08:00)
+12:18:43 debug: Inspect cce:/internal/x/prerequisite-imports
+12:18:43 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:18:43 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:18:43 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+12:18:43 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts. Last mtime: Mon May 06 2024 12:17:34 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd, Current mtime: Mon May 06 2024 12:18:29 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd
+12:18:43 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts
+12:18:43 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+12:18:43 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:18:43 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:18:43 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:18:43 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:18:43 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:18:43 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:18:43 debug: Resolve ./PipePool from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:18:43 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:18:43 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:18:43 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+12:18:43 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:18:43 debug: Target(editor) ends with cost 166.25929999351501ms.
+12:18:43 debug: Target(preview) build started.
+12:18:43 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:53:23 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:54:32 GMT+0800 (GMT+08:00)
+12:18:43 debug: Inspect cce:/internal/x/prerequisite-imports
+12:18:43 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:18:43 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:18:44 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+12:18:44 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts. Last mtime: Mon May 06 2024 12:17:34 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd, Current mtime: Mon May 06 2024 12:18:29 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd
+12:18:44 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts
+12:18:44 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+12:18:44 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:18:44 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:18:44 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:18:44 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:18:44 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:18:44 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:18:44 debug: Resolve ./PipePool from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:18:44 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:18:44 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:18:44 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+12:18:44 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:18:44 debug: Target(preview) ends with cost 172.19830000400543ms.
+12:21:19 debug: Dispatch build request for time accumulated 3 asset changes.
+12:21:19 debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+12:21:19 debug: Target(editor) build started.
+12:21:19 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:54:31 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:57:07 GMT+0800 (GMT+08:00)
+12:21:19 debug: Inspect cce:/internal/x/prerequisite-imports
+12:21:19 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+12:21:19 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts. Last mtime: Mon May 06 2024 12:18:29 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd, Current mtime: Mon May 06 2024 12:21:18 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd
+12:21:19 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts
+12:21:19 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:21:19 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:21:19 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:21:19 debug: Resolve ./PipePool from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:21:19 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts. Last mtime: Mon May 06 2024 12:15:13 GMT+0800 (GMT+08:00)@3da08807-65c8-4cf2-894b-ef326568e55e, Current mtime: Mon May 06 2024 12:21:17 GMT+0800 (GMT+08:00)@3da08807-65c8-4cf2-894b-ef326568e55e
+12:21:19 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+12:21:19 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts. Last mtime: Sun May 05 2024 21:55:27 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b, Current mtime: Mon May 06 2024 12:21:13 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b
+12:21:19 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:21:19 debug: Target(editor) ends with cost 290.7404000759125ms.
+12:21:19 debug: Target(preview) build started.
+12:21:19 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:54:32 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:57:07 GMT+0800 (GMT+08:00)
+12:21:19 debug: Inspect cce:/internal/x/prerequisite-imports
+12:21:19 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts.
+12:21:19 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts. Last mtime: Mon May 06 2024 12:18:29 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd, Current mtime: Mon May 06 2024 12:21:18 GMT+0800 (GMT+08:00)@42556c44-e911-4d0d-80b1-614138c02fcd
+12:21:19 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts
+12:21:19 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve ./Ground from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:21:19 debug: Resolve ./Results from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:21:19 debug: Resolve ./Bird from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts.
+12:21:19 debug: Resolve ./PipePool from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:21:19 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts. Last mtime: Mon May 06 2024 12:15:13 GMT+0800 (GMT+08:00)@3da08807-65c8-4cf2-894b-ef326568e55e, Current mtime: Mon May 06 2024 12:21:17 GMT+0800 (GMT+08:00)@3da08807-65c8-4cf2-894b-ef326568e55e
+12:21:19 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts as cce:/internal/x/cc.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts.
+12:21:19 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts.
+12:21:19 debug: Detected change: file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts. Last mtime: Sun May 05 2024 21:55:27 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b, Current mtime: Mon May 06 2024 12:21:13 GMT+0800 (GMT+08:00)@f4aa4326-d8fb-4b09-a8c1-f3560a2ea96b
+12:21:19 debug: Inspect file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts
+12:21:20 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+12:21:20 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+12:21:20 debug: Resolve cc from file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts as cce:/internal/x/cc.
+12:21:20 debug: Resolve file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts.
+12:21:20 debug: Target(preview) ends with cost 365.7705999612808ms.

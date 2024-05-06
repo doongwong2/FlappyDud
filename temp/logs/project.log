@@ -1,21 +1,30 @@
-5-5-2024 21:24:30 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
-5-5-2024 21:24:31 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-5-5-2024 21:24:31 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
-5-5-2024 21:24:52 - info: [PreviewInEditor] preview process is ready
-5-5-2024 21:24:53 - log: [Scene] meshopt wasm decoder initialized
-5-5-2024 21:24:53 - log: [Scene] [box2d]:box2d wasm lib loaded.
-5-5-2024 21:24:54 - log: [Scene] [bullet]:bullet wasm lib loaded.
-5-5-2024 21:24:54 - log: [Scene] [PHYSICS]: using builtin.
-5-5-2024 21:24:55 - log: [Scene] Cocos Creator v3.8.2
-5-5-2024 21:24:55 - info: [Scene] Forward render pipeline initialized.
-5-5-2024 21:24:56 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-5-5-2024 21:28:33 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-5-5-2024 21:32:51 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-5-5-2024 21:55:34 - error: Error occurred in handler for 'GUEST_VIEW_MANAGER_CALL': Error: Invalid guestInstanceId: 6
-    at getGuestForWebContents (electron/js2c/browser_init.js:181:6307)
-    at electron/js2c/browser_init.js:181:5372
-    at electron/js2c/browser_init.js:181:1637
-    at electron/js2c/browser_init.js:197:579
-    at Object.<anonymous> (electron/js2c/browser_init.js:161:9782)
-    at Object.emit (events.js:315:20)
-    at Object.emit (domain.js:467:12)
+5-6-2024 11:24:11 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+5-6-2024 11:24:11 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+5-6-2024 11:24:11 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
+5-6-2024 11:24:25 - info: [PreviewInEditor] preview process is ready
+5-6-2024 11:24:27 - log: [Scene] meshopt wasm decoder initialized
+5-6-2024 11:24:27 - log: [Scene] [box2d]:box2d wasm lib loaded.
+5-6-2024 11:24:28 - log: [Scene] [bullet]:bullet wasm lib loaded.
+5-6-2024 11:24:28 - log: [Scene] [PHYSICS]: using builtin.
+5-6-2024 11:24:29 - log: [Scene] Cocos Creator v3.8.2
+5-6-2024 11:24:29 - info: [Scene] Forward render pipeline initialized.
+5-6-2024 11:24:29 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-6-2024 11:26:52 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
+5-6-2024 11:39:40 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
+5-6-2024 12:16:39 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
+5-6-2024 12:18:46 - log: [PreviewInEditor] meshopt wasm decoder initialized
+5-6-2024 12:18:46 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+5-6-2024 12:18:46 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+5-6-2024 12:18:47 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+5-6-2024 12:18:47 - log: [PreviewInEditor] Cocos Creator v3.8.2
+5-6-2024 12:18:48 - info: [PreviewInEditor] Forward render pipeline initialized.
+5-6-2024 12:18:48 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-6-2024 12:18:54 - info: [PreviewInEditor] preview process is ready
+5-6-2024 12:21:29 - log: [PreviewInEditor] meshopt wasm decoder initialized
+5-6-2024 12:21:29 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+5-6-2024 12:21:29 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+5-6-2024 12:21:30 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+5-6-2024 12:21:31 - log: [PreviewInEditor] Cocos Creator v3.8.2
+5-6-2024 12:21:31 - info: [PreviewInEditor] Forward render pipeline initialized.
+5-6-2024 12:21:31 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-6-2024 12:21:46 - info: [PreviewInEditor] preview process is ready
