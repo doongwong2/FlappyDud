@@ -43,7 +43,7 @@ export class PipePool extends Component {
     }
 
     reset(){
-        this.pipePoolHome.removeaAllChildren();
+        this.pipePoolHome.removeAllChildren();
         this.pool.clear();
         this.initPool();
     }

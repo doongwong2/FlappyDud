@@ -74,7 +74,7 @@ System.register(["cc"], function (_export, _context) {
         }
 
         reset() {
-          this.pipePoolHome.removeaAllChildren();
+          this.pipePoolHome.removeAllChildren();
           this.pool.clear();
           this.initPool();
         }
