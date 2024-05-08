@@ -305,6 +305,30 @@
       "imports": {},
       "timestamp": 1715157136733
     },
+    "057501cea874a2a6941dbe4fa70aedb04bbd93da": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1715158243263
+    },
+    "1b53df8cc78f4664085b6c6d00eaab0522f20f26": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1715159015715
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -324,32 +348,39 @@
         "__unresolved_2": {
           "resolved": {
             "type": "chunk",
-            "id": "92d1703d401a0ac162e0b0d8abfe3fcf68d91f3d"
+            "id": "1b53df8cc78f4664085b6c6d00eaab0522f20f26"
           },
           "messages": []
         },
         "__unresolved_3": {
           "resolved": {
             "type": "chunk",
-            "id": "e35c645069148132ee0910ed0f206346a06e0926"
+            "id": "92d1703d401a0ac162e0b0d8abfe3fcf68d91f3d"
           },
           "messages": []
         },
         "__unresolved_4": {
           "resolved": {
             "type": "chunk",
-            "id": "c8a50dc45fdf8755a318cfdd298efb55099fcda0"
+            "id": "e35c645069148132ee0910ed0f206346a06e0926"
           },
           "messages": []
         },
         "__unresolved_5": {
           "resolved": {
             "type": "chunk",
-            "id": "0820acf4f6fd0e813a0334423a1151424f4f70a4"
+            "id": "c8a50dc45fdf8755a318cfdd298efb55099fcda0"
           },
           "messages": []
         },
         "__unresolved_6": {
+          "resolved": {
+            "type": "chunk",
+            "id": "0820acf4f6fd0e813a0334423a1151424f4f70a4"
+          },
+          "messages": []
+        },
+        "__unresolved_7": {
           "resolved": {
             "type": "chunk",
             "id": "8ee8eddf78e72e712e5d9bcbe146be37736666d7"
@@ -357,19 +388,7 @@
           "messages": []
         }
       },
-      "timestamp": 1715158243208
-    },
-    "057501cea874a2a6941dbe4fa70aedb04bbd93da": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1715158243263
+      "timestamp": 1715159223364
     },
     "92d1703d401a0ac162e0b0d8abfe3fcf68d91f3d": {
       "imports": {
@@ -408,6 +427,13 @@
           },
           "messages": []
         },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "chunk",
+            "id": "1b53df8cc78f4664085b6c6d00eaab0522f20f26"
+          },
+          "messages": []
+        },
         "cc": {
           "resolved": {
             "type": "chunk",
@@ -416,7 +442,7 @@
           "messages": []
         }
       },
-      "timestamp": 1715158243331
+      "timestamp": 1715159223442
     }
   },
   "entries": {
@@ -424,6 +450,7 @@
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "dd8ffe4b66ab421921fe26a7524871e3101b074e",
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts": "057501cea874a2a6941dbe4fa70aedb04bbd93da",
+    "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/BirdAudio.ts": "1b53df8cc78f4664085b6c6d00eaab0522f20f26",
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts": "92d1703d401a0ac162e0b0d8abfe3fcf68d91f3d",
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts": "e35c645069148132ee0910ed0f206346a06e0926",
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts": "c8a50dc45fdf8755a318cfdd298efb55099fcda0",

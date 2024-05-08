@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, CCInteger, director, Contact2DType, Collider2D, Ground, Results, Bird, PipePool, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, CCInteger, director, Contact2DType, Collider2D, Ground, Results, Bird, PipePool, BirdAudio, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -23,6 +23,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
   function _reportPossibleCrUseOfPipePool(extras) {
     _reporterNs.report("PipePool", "./PipePool", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfBirdAudio(extras) {
+    _reporterNs.report("BirdAudio", "./BirdAudio", _context.meta, extras);
   }
 
   return {
@@ -47,6 +51,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       Bird = _unresolved_4.Bird;
     }, function (_unresolved_5) {
       PipePool = _unresolved_5.PipePool;
+    }, function (_unresolved_6) {
+      BirdAudio = _unresolved_6.BirdAudio;
     }],
     execute: function () {
       _crd = true;
@@ -80,8 +86,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           error: Error()
         }), PipePool) : PipePool
       }), _dec6 = property({
-        type: CCInteger
+        type: _crd && BirdAudio === void 0 ? (_reportPossibleCrUseOfBirdAudio({
+          error: Error()
+        }), BirdAudio) : BirdAudio
       }), _dec7 = property({
+        type: CCInteger
+      }), _dec8 = property({
         type: CCInteger
       }), _dec(_class = (_class2 = class GameCtrl extends Component {
         constructor() {
@@ -95,9 +105,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           _initializerDefineProperty(this, "pipeQueue", _descriptor4, this);
 
-          _initializerDefineProperty(this, "speed", _descriptor5, this);
+          _initializerDefineProperty(this, "clip", _descriptor5, this);
 
-          _initializerDefineProperty(this, "pipeSpeed", _descriptor6, this);
+          _initializerDefineProperty(this, "speed", _descriptor6, this);
+
+          _initializerDefineProperty(this, "pipeSpeed", _descriptor7, this);
 
           this.isOver = void 0;
         }
@@ -120,6 +132,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
             if (this.isOver == false) {
               this.bird.fly();
+              this.clip.onAudioQueue(0);
             }
           });
         } // onKeyDown(event: EventKeyboard){
@@ -146,6 +159,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         gameOver() {
           this.result.showResults();
           this.isOver = true;
+          this.clip.onAudioQueue(3);
           director.pause();
         }
 
@@ -158,6 +172,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         passPipe() {
           this.result.addScore();
+          this.clip.onAudioQueue(1);
         }
 
         createPipe() {
@@ -174,6 +189,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         onBeginContact(selfCollider, otherCollider, contact) {
           this.bird.hitSomething = true;
+          this.clip.onAudioQueue(2);
         }
 
         birdStruck() {
@@ -210,14 +226,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "speed", [_dec6], {
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "clip", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "speed", [_dec7], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return 300;
         }
-      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "pipeSpeed", [_dec7], {
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "pipeSpeed", [_dec8], {
         configurable: true,
         enumerable: true,
         writable: true,

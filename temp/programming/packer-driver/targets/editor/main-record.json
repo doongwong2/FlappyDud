@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1118125.6353000402,
+      "mTimestamp": 2098275.961600065,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -672,7 +672,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts",
+          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/BirdAudio.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -681,63 +681,77 @@
             },
             "end": {
               "line": 5,
-              "column": 349
+              "column": 350
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 366
+            },
+            "end": {
+              "line": 5,
+              "column": 443
             }
           }
         },
         {
           "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Ground.ts",
-          "resolved": "__unresolved_3",
+          "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 365
+              "column": 459
             },
             "end": {
               "line": 5,
-              "column": 440
+              "column": 534
             }
           }
         },
         {
           "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts",
-          "resolved": "__unresolved_4",
+          "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 456
+              "column": 550
             },
             "end": {
               "line": 5,
-              "column": 533
+              "column": 627
             }
           }
         },
         {
           "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Pipes.ts",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 549
+              "column": 643
             },
             "end": {
               "line": 5,
-              "column": 623
+              "column": 717
             }
           }
         },
         {
           "value": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Results.ts",
-          "resolved": "__unresolved_6",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 639
+              "column": 733
             },
             "end": {
               "line": 5,
-              "column": 715
+              "column": 809
             }
           }
         }
@@ -755,6 +769,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/Bird.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/BirdAudio.ts"
           },
           "messages": []
         },
@@ -985,7 +1006,7 @@
     },
     "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/GameCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1715158191643.9158,
+        "mtime": 1715159220409.4714,
         "uuid": "42556c44-e911-4d0d-80b1-614138c02fcd"
       },
       "chunkId": "92d1703d401a0ac162e0b0d8abfe3fcf68d91f3d",
@@ -1068,6 +1089,20 @@
               "column": 37
             }
           }
+        },
+        {
+          "value": "./BirdAudio",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 25
+            },
+            "end": {
+              "line": 8,
+              "column": 38
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1125,6 +1160,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/PipePool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/BirdAudio.ts"
           },
           "messages": []
         }
@@ -1316,6 +1358,58 @@
             "end": {
               "line": 1,
               "column": 79
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/User/Desktop/programs/FlappyDud/assets/Scripts/BirdAudio.ts": {
+      "mTimestamp": {
+        "mtime": 1715158989211.348,
+        "uuid": "0bff8ec9-927a-47d4-aa5c-90b3d7c696b1"
+      },
+      "chunkId": "1b53df8cc78f4664085b6c6d00eaab0522f20f26",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
             }
           }
         }

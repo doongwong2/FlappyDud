@@ -216,14 +216,19 @@
         "d65d2b4a-5d91-43b9-b9dd-71f26cb3a8fc",
         "1468f2e1-cee3-45fa-8c00-b189e2c4dd3d",
         "08c14b7e-284a-43e6-8108-10d4caaf1bd5@f9941",
-        "43238840-1f85-4458-a7a9-d4caaf0cf8b7"
+        "43238840-1f85-4458-a7a9-d4caaf0cf8b7",
+        "1023bb78-f8c4-44c5-9889-f4101195e351",
+        "06895a0c-8831-4e10-8832-e75a63979acd",
+        "2118b9de-ec64-4987-b637-513ae7c23a6b",
+        "23e22594-2294-4670-8f9a-e5af9ee15176"
       ],
       "dependScripts": [
         "42556c44-e911-4d0d-80b1-614138c02fcd",
         "6dc030d0-b166-4c62-b35c-2969f01a4a2c",
         "c65e066c-aad7-4210-80d3-09ea2630e2f1",
         "f3bdc668-eb63-4343-a034-aafbd79eee4b",
-        "3da08807-65c8-4cf2-894b-ef326568e55e"
+        "3da08807-65c8-4cf2-894b-ef326568e55e",
+        "0bff8ec9-927a-47d4-aa5c-90b3d7c696b1"
       ]
     },
     "versionCode": 0
@@ -284,6 +289,44 @@
   "3da08807-65c8-4cf2-894b-ef326568e55e": {
     "url": "db://assets/Scripts/PipePool.ts",
     "value": {},
+    "versionCode": 0
+  },
+  "0bff8ec9-927a-47d4-aa5c-90b3d7c696b1": {
+    "url": "db://assets/Scripts/BirdAudio.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a56171d5-7a2e-4054-9c77-20da78b7c3dc": {
+    "url": "db://assets/Game Res/Audio",
+    "value": {},
+    "versionCode": 0
+  },
+  "06895a0c-8831-4e10-8832-e75a63979acd": {
+    "url": "db://assets/Game Res/Audio/point.wav",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "2118b9de-ec64-4987-b637-513ae7c23a6b": {
+    "url": "db://assets/Game Res/Audio/hit.wav",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "23e22594-2294-4670-8f9a-e5af9ee15176": {
+    "url": "db://assets/Game Res/Audio/die.wav",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1023bb78-f8c4-44c5-9889-f4101195e351": {
+    "url": "db://assets/Game Res/Audio/swoosh.wav",
+    "value": {
+      "depends": []
+    },
     "versionCode": 0
   }
 }
