@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, CCInteger, input, Input, KeyCode, director, Ground, Results, Bird, PipePool, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, CCInteger, director, Contact2DType, Collider2D, Ground, Results, Bird, PipePool, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -36,10 +36,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       Component = _cc.Component;
       Node = _cc.Node;
       CCInteger = _cc.CCInteger;
-      input = _cc.input;
-      Input = _cc.Input;
-      KeyCode = _cc.KeyCode;
       director = _cc.director;
+      Contact2DType = _cc.Contact2DType;
+      Collider2D = _cc.Collider2D;
     }, function (_unresolved_2) {
       Ground = _unresolved_2.Ground;
     }, function (_unresolved_3) {
@@ -54,7 +53,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
       _cclegacy._RF.push({}, "42556xE6RFNDYCxYUE4wC/N", "GameCtrl", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'CCInteger', 'input', 'Input', 'EventKeyboard', 'KeyCode', 'director']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'CCInteger', 'input', 'Input', 'EventKeyboard', 'KeyCode', 'director', 'Contact2DType', 'Collider2D', 'IPhysics2DContact']);
 
       ({
         ccclass,
@@ -99,37 +98,45 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           _initializerDefineProperty(this, "speed", _descriptor5, this);
 
           _initializerDefineProperty(this, "pipeSpeed", _descriptor6, this);
+
+          this.isOver = void 0;
         }
 
         onLoad() {
           this.initListener();
           this.result.resetScore();
+          this.isOver = true;
           director.pause();
         }
 
         initListener() {
-          input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
+          //input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this)
           this.node.on(Node.EventType.TOUCH_START, () => {
-            this.bird.fly();
-          });
-        }
-
-        onKeyDown(event) {
-          switch (event.keyCode) {
-            case KeyCode.KEY_A:
-              this.gameOver();
-              break;
-
-            case KeyCode.KEY_P:
-              this.result.addScore();
-              break;
-
-            case KeyCode.KEY_Q:
+            if (this.isOver == true) {
               this.resetGame();
               this.bird.resetBird();
-              break;
-          }
-        }
+              this.startGame();
+            }
+
+            if (this.isOver == false) {
+              this.bird.fly();
+            }
+          });
+        } // onKeyDown(event: EventKeyboard){
+        //     switch(event.keyCode){
+        //         case KeyCode.KEY_A:
+        //             this.gameOver();
+        //             break;
+        //         case KeyCode.KEY_P:
+        //             this.result.addScore();
+        //             break;
+        //         case KeyCode.KEY_Q:
+        //             this.resetGame();
+        //             this.bird.resetBird();
+        //             break;
+        //     }
+        // }
+
 
         startGame() {
           this.result.hideResults();
@@ -138,12 +145,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         gameOver() {
           this.result.showResults();
+          this.isOver = true;
           director.pause();
         }
 
         resetGame() {
           this.result.resetScore();
           this.pipeQueue.reset();
+          this.isOver = false;
           this.startGame();
         }
 
@@ -153,6 +162,32 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         createPipe() {
           this.pipeQueue.addPool();
+        }
+
+        contactGroundPipe() {
+          let collider = this.bird.getComponent(Collider2D);
+
+          if (collider) {
+            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+          }
+        }
+
+        onBeginContact(selfCollider, otherCollider, contact) {
+          this.bird.hitSomething = true;
+        }
+
+        birdStruck() {
+          this.contactGroundPipe();
+
+          if (this.bird.hitSomething == true) {
+            this.gameOver();
+          }
+        }
+
+        update() {
+          if (this.isOver == false) {
+            this.birdStruck();
+          }
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "ground", [_dec2], {

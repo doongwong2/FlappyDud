@@ -49,6 +49,7 @@ System.register(["cc"], function (_export, _context) {
 
           this.birdAnimation = void 0;
           this.birdLocation = void 0;
+          this.hitSomething = void 0;
         }
 
         onLoad() {
@@ -59,6 +60,7 @@ System.register(["cc"], function (_export, _context) {
         resetBird() {
           this.birdLocation = new Vec3(0, 0, 0);
           this.node.setPosition(this.birdLocation);
+          this.hitSomething = false;
         }
 
         fly() {

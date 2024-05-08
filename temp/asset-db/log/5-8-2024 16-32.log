@@ -1,0 +1,185 @@
+5-8-2024 16:32:09-log: Cannot access game frame or container.
+5-8-2024 16:32:10-debug: asset-db:require-engine-code (2019ms)
+5-8-2024 16:32:10-log: meshopt wasm decoder initialized
+5-8-2024 16:32:11-log: [box2d]:box2d wasm lib loaded.
+5-8-2024 16:32:11-log: [bullet]:bullet wasm lib loaded.
+5-8-2024 16:32:11-debug: [Assets Memory track]: asset-db-plugin-register: programming start:106.55MB, end 110.06MB, increase: 3.52MB
+5-8-2024 16:32:11-log: Cocos Creator v3.8.2
+5-8-2024 16:32:15-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:110.64MB, end 210.07MB, increase: 99.43MB
+5-8-2024 16:32:15-debug: [Assets Memory track]: asset-db-plugin-enable: project start:110.24MB, end 206.76MB, increase: 96.52MB
+5-8-2024 16:32:15-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:110.11MB, end 206.75MB, increase: 96.64MB
+5-8-2024 16:32:11-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:19.38MB, end 105.52MB, increase: 86.13MB
+5-8-2024 16:32:15-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:105.52MB, end 206.92MB, increase: 101.39MB
+5-8-2024 16:32:15-debug: run package(wechatprogram) handler(enable) success!
+5-8-2024 16:32:15-debug: run package(wechatprogram) handler(enable) start
+5-8-2024 16:32:15-debug: run package(windows) handler(enable) start
+5-8-2024 16:32:15-debug: run package(windows) handler(enable) success!
+5-8-2024 16:32:15-debug: run package(xiaomi-quick-game) handler(enable) start
+5-8-2024 16:32:15-debug: run package(xiaomi-quick-game) handler(enable) success!
+5-8-2024 16:32:15-debug: run package(cocos-service) handler(enable) success!
+5-8-2024 16:32:15-debug: run package(cocos-service) handler(enable) start
+5-8-2024 16:32:15-debug: run package(im-plugin) handler(enable) start
+5-8-2024 16:32:15-debug: run package(im-plugin) handler(enable) success!
+5-8-2024 16:32:15-debug: run package(fix-device) handler(enable) success!
+5-8-2024 16:32:15-debug: run package(fix-device) handler(enable) start
+5-8-2024 16:32:15-debug: run package(placeholder) handler(enable) start
+5-8-2024 16:32:15-debug: run package(placeholder) handler(enable) success!
+5-8-2024 16:32:15-debug: asset-db:worker-init: initPlugin (3897ms)
+5-8-2024 16:32:15-debug: [Assets Memory track]: asset-db:worker-init start:19.38MB, end 208.03MB, increase: 188.65MB
+5-8-2024 16:32:15-debug: Run asset db hook programming:beforePreStart ...
+5-8-2024 16:32:15-debug: Run asset db hook programming:beforePreStart success!
+5-8-2024 16:32:15-debug: Run asset db hook engine-extends:beforePreStart success!
+5-8-2024 16:32:15-debug: Run asset db hook engine-extends:beforePreStart ...
+5-8-2024 16:32:16-debug: asset-db:worker-init (7722ms)
+5-8-2024 16:32:16-debug: asset-db-hook-programming-beforePreStart (789ms)
+5-8-2024 16:32:16-debug: asset-db-hook-engine-extends-beforePreStart (789ms)
+5-8-2024 16:32:16-debug: Preimport db internal success
+5-8-2024 16:32:16-debug: Preimport db assets success
+5-8-2024 16:32:16-debug: starting packer-driver...
+5-8-2024 16:32:16-debug: Run asset db hook programming:afterPreStart ...
+5-8-2024 16:32:16-debug: initialize scripting environment...
+5-8-2024 16:32:16-debug: Set detail map pack:///resolution-detail-map.json: {}
+5-8-2024 16:32:16-debug: Run asset db hook programming:afterPreStart success!
+5-8-2024 16:32:16-debug: Run asset db hook engine-extends:afterPreStart success!
+5-8-2024 16:32:16-debug: Run asset db hook engine-extends:afterPreStart ...
+5-8-2024 16:32:16-debug: [Assets Memory track]: asset-db:worker-init: preStart start:208.04MB, end 224.04MB, increase: 16.00MB
+5-8-2024 16:32:16-debug: Start up the 'internal' database...
+5-8-2024 16:32:17-debug: asset-db-hook-programming-afterPreStart (575ms)
+5-8-2024 16:32:17-debug: asset-db:worker-effect-data-processing (111ms)
+5-8-2024 16:32:17-debug: asset-db-hook-engine-extends-afterPreStart (111ms)
+5-8-2024 16:32:17-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:218.04MB, end 222.19MB, increase: 4.15MB
+5-8-2024 16:32:17-debug: Start up the 'assets' database...
+5-8-2024 16:32:17-debug: asset-db:worker-startup-database[internal] (1011ms)
+5-8-2024 16:32:17-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:221.08MB, end 222.50MB, increase: 1.42MB
+5-8-2024 16:32:17-debug: asset-db:worker-startup-database[assets] (724ms)
+5-8-2024 16:32:17-debug: asset-db:start-database (1587ms)
+5-8-2024 16:32:17-debug: asset-db:ready (11370ms)
+5-8-2024 16:32:17-debug: init worker message success
+5-8-2024 16:32:18-debug: [Build Memory track]: builder:worker-init start:224.60MB, end 232.92MB, increase: 8.31MB
+5-8-2024 16:32:18-debug: programming:execute-script (1153ms)
+5-8-2024 16:32:18-debug: builder:worker-init (1140ms)
+5-8-2024 16:32:19-debug: programming:execute-script (11ms)
+5-8-2024 16:34:16-debug: refresh db internal success
+5-8-2024 16:34:16-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:34:16-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:34:16-debug: refresh db assets success
+5-8-2024 16:34:16-debug: asset-db:refresh-all-database (181ms)
+5-8-2024 16:34:16-debug: asset-db:worker-effect-data-processing (2ms)
+5-8-2024 16:34:16-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+5-8-2024 16:36:32-debug: refresh db internal success
+5-8-2024 16:36:32-debug: refresh db assets success
+5-8-2024 16:36:32-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:36:32-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:36:32-debug: asset-db:refresh-all-database (207ms)
+5-8-2024 16:36:32-debug: asset-db:worker-effect-data-processing (1ms)
+5-8-2024 16:36:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+5-8-2024 16:37:15-debug: refresh db internal success
+5-8-2024 16:37:15-debug: refresh db assets success
+5-8-2024 16:37:15-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:37:15-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:37:15-debug: asset-db:refresh-all-database (157ms)
+5-8-2024 16:37:15-debug: asset-db:worker-effect-data-processing (1ms)
+5-8-2024 16:37:15-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+5-8-2024 16:37:18-debug: refresh db internal success
+5-8-2024 16:37:18-debug: refresh db assets success
+5-8-2024 16:37:18-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:37:18-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:37:18-debug: asset-db:refresh-all-database (153ms)
+5-8-2024 16:37:18-debug: asset-db:worker-effect-data-processing (1ms)
+5-8-2024 16:37:18-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+5-8-2024 16:37:23-debug: refresh db internal success
+5-8-2024 16:37:23-debug: refresh db assets success
+5-8-2024 16:37:23-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:37:23-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:37:23-debug: asset-db:refresh-all-database (140ms)
+5-8-2024 16:37:23-debug: asset-db:worker-effect-data-processing (1ms)
+5-8-2024 16:37:23-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+5-8-2024 16:37:27-debug: refresh db internal success
+5-8-2024 16:37:27-debug: refresh db assets success
+5-8-2024 16:37:27-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:37:27-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:37:27-debug: asset-db:refresh-all-database (172ms)
+5-8-2024 16:37:27-debug: asset-db:worker-effect-data-processing (1ms)
+5-8-2024 16:37:27-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+5-8-2024 16:38:01-debug: start refresh asset from C:\Users\User\Desktop\programs\FlappyDud\assets\Prefabs\Pipe.prefab...
+5-8-2024 16:38:01-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Prefabs\Pipe.prefabbackground: #aaff85; color: #000;color: #000;
+5-8-2024 16:38:01-debug: refresh asset C:\Users\User\Desktop\programs\FlappyDud\assets\Prefabs success
+5-8-2024 16:38:08-debug: refresh db internal success
+5-8-2024 16:38:08-debug: refresh db assets success
+5-8-2024 16:38:08-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:38:08-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:38:08-debug: asset-db:refresh-all-database (147ms)
+5-8-2024 16:38:08-debug: asset-db:worker-effect-data-processing (1ms)
+5-8-2024 16:38:08-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+5-8-2024 16:38:13-debug: refresh db internal success
+5-8-2024 16:38:13-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:38:13-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:38:13-debug: refresh db assets success
+5-8-2024 16:38:13-debug: asset-db:refresh-all-database (167ms)
+5-8-2024 16:38:13-debug: asset-db:worker-effect-data-processing (1ms)
+5-8-2024 16:38:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+5-8-2024 16:38:43-debug: start refresh asset from C:\Users\User\Desktop\programs\FlappyDud\assets\Scenes\Gamescene.scene...
+5-8-2024 16:38:43-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Scenes\Gamescene.scenebackground: #aaff85; color: #000;color: #000;
+5-8-2024 16:38:43-debug: refresh asset C:\Users\User\Desktop\programs\FlappyDud\assets\Scenes success
+5-8-2024 16:38:58-debug: start refresh asset from C:\Users\User\Desktop\programs\FlappyDud\assets\Scenes\Gamescene.scene...
+5-8-2024 16:38:58-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Scenes\Gamescene.scenebackground: #aaff85; color: #000;color: #000;
+5-8-2024 16:38:58-debug: refresh asset C:\Users\User\Desktop\programs\FlappyDud\assets\Scenes success
+5-8-2024 16:43:03-debug: refresh db internal success
+5-8-2024 16:43:03-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Scripts\GameCtrl.tsbackground: #aaff85; color: #000;color: #000;
+5-8-2024 16:43:03-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:43:03-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:43:03-debug: refresh db assets success
+5-8-2024 16:43:03-debug: asset-db:refresh-all-database (201ms)
+5-8-2024 16:43:03-debug: asset-db:worker-effect-data-processing (3ms)
+5-8-2024 16:43:03-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+5-8-2024 16:50:43-debug: refresh db internal success
+5-8-2024 16:50:43-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Scripts\Bird.tsbackground: #aaff85; color: #000;color: #000;
+5-8-2024 16:50:43-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Scripts\GameCtrl.tsbackground: #aaff85; color: #000;color: #000;
+5-8-2024 16:50:43-debug: refresh db assets success
+5-8-2024 16:50:43-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:50:43-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:50:43-debug: asset-db:refresh-all-database (141ms)
+5-8-2024 16:50:43-debug: asset-db:worker-effect-data-processing (1ms)
+5-8-2024 16:50:43-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+5-8-2024 16:50:47-debug: programming:execute-script (16ms)
+5-8-2024 16:50:48-debug: Query all assets info in project
+5-8-2024 16:50:48-debug: init custom config: keepNodeUuid: false, useCache: true
+5-8-2024 16:50:48-debug:   Number of other assets: 345
+5-8-2024 16:50:48-debug:   Number of all scripts: 7
+5-8-2024 16:50:48-debug:   Number of all scenes: 1
+5-8-2024 16:50:48-debug: Query asset bundle start, progress: 0%
+5-8-2024 16:50:48-debug: // ---- build task Query asset bundle ----
+5-8-2024 16:50:48-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+5-8-2024 16:50:48-debug: // ---- build task Query asset bundle ---- (11ms)
+5-8-2024 16:50:48-debug: [Build Memory track]: Query asset bundle start:203.61MB, end 204.00MB, increase: 401.10KB
+5-8-2024 16:50:48-debug: run build task Query asset bundle success in 11 ms√, progress: 5%
+5-8-2024 16:50:48-debug: Query asset bundle start, progress: 5%
+5-8-2024 16:50:48-debug: // ---- build task Query asset bundle ----
+5-8-2024 16:50:48-debug: // ---- build task Query asset bundle ---- (1ms)
+5-8-2024 16:50:48-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+5-8-2024 16:50:48-debug: [Build Memory track]: Query asset bundle start:204.01MB, end 204.03MB, increase: 14.83KB
+5-8-2024 16:50:48-debug: Sort some build options to settings.json start, progress: 10%
+5-8-2024 16:50:48-debug: // ---- build task Sort some build options to settings.json ----
+5-8-2024 16:50:48-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+5-8-2024 16:50:48-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+5-8-2024 16:50:48-debug: [Build Memory track]: Sort some build options to settings.json start:204.04MB, end 204.06MB, increase: 17.14KB
+5-8-2024 16:50:48-debug: Fill script data to settings start, progress: 12%
+5-8-2024 16:50:48-debug: // ---- build task Fill script data to settings ----
+5-8-2024 16:50:48-debug: // ---- build task Fill script data to settings ---- (1ms)
+5-8-2024 16:50:48-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+5-8-2024 16:50:48-debug: [Build Memory track]: Fill script data to settings start:204.07MB, end 204.09MB, increase: 16.62KB
+5-8-2024 16:50:48-debug: Sort some build options to settings.json start, progress: 13%
+5-8-2024 16:50:48-debug: // ---- build task Sort some build options to settings.json ----
+5-8-2024 16:50:48-debug: // ---- build task Sort some build options to settings.json ---- (6ms)
+5-8-2024 16:50:48-debug: run build task Sort some build options to settings.json success in 6 ms√, progress: 15%
+5-8-2024 16:50:48-debug: [Build Memory track]: Sort some build options to settings.json start:204.10MB, end 204.22MB, increase: 126.36KB
+5-8-2024 16:51:50-debug: start refresh asset from C:\Users\User\Desktop\programs\FlappyDud\assets\Scenes\Gamescene.scene...
+5-8-2024 16:51:50-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Scenes\Gamescene.scenebackground: #aaff85; color: #000;color: #000;
+5-8-2024 16:51:50-debug: refresh asset C:\Users\User\Desktop\programs\FlappyDud\assets\Scenes success
+5-8-2024 16:51:54-debug: refresh db internal success
+5-8-2024 16:51:54-debug: refresh db assets success
+5-8-2024 16:51:54-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 16:51:54-debug: Run asset db hook engine-extends:afterRefresh success!
+5-8-2024 16:51:54-debug: asset-db:refresh-all-database (185ms)
+5-8-2024 16:51:54-debug: asset-db:worker-effect-data-processing (1ms)
+5-8-2024 16:51:54-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
