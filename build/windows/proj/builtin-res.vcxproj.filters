@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\b62f75463746b7bb8b14527409691f0d\builtin-res.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\native\engine\win64\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\builtin-res" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3DA84E05-D314-3F1F-9B4A-92114955E62C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

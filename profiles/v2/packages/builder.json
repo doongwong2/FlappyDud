@@ -2,5 +2,153 @@
   "__version__": "1.3.7",
   "log": {
     "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1715312057932": {
+        "type": "build",
+        "id": "1715312057932",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "5-10-2024 11:35:15 build success in 57 s!",
+        "options": {
+          "name": "FlappyDud",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "f18df699-8e83-4ff8-8581-bafeb09047b7",
+          "outputName": "windows",
+          "taskName": "windows",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/Gamescene.scene",
+              "uuid": "f18df699-8e83-4ff8-8581-bafeb09047b7"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows5-10-2024 11-34.log"
+        },
+        "time": "5-10-2024 11:34:17",
+        "dirty": false
+      },
+      "1715312082974": {
+        "type": "build",
+        "id": "1715312082974",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "5-10-2024 11:36:35 build success in 1 min 18 s!",
+        "options": {
+          "name": "FlappyDud",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "f18df699-8e83-4ff8-8581-bafeb09047b7",
+          "outputName": "web-desktop",
+          "taskName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/Gamescene.scene",
+              "uuid": "f18df699-8e83-4ff8-8581-bafeb09047b7"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-desktop5-10-2024 11-34.log"
+        },
+        "time": "5-10-2024 11:35:16",
+        "dirty": false
+      },
+      "1715312090665": {
+        "type": "build",
+        "id": "1715312090665",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "5-10-2024 11:37:49 build success in 1 min 13 s!",
+        "options": {
+          "name": "FlappyDud",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "f18df699-8e83-4ff8-8581-bafeb09047b7",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/Gamescene.scene",
+              "uuid": "f18df699-8e83-4ff8-8581-bafeb09047b7"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile5-10-2024 11-34.log"
+        },
+        "time": "5-10-2024 11:36:36",
+        "dirty": false
+      }
+    }
   }
 }

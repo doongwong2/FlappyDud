@@ -399,3 +399,10 @@
 5-8-2024 17:07:51-debug: Run asset db hook engine-extends:afterRefresh success!
 5-8-2024 17:07:51-debug: asset-db:refresh-all-database (202ms)
 5-8-2024 17:07:51-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+5-8-2024 17:10:01-debug: refresh db internal success
+5-8-2024 17:10:01-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Scripts\Bird.tsbackground: #aaff85; color: #000;color: #000;
+5-8-2024 17:10:01-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Scripts\BirdAudio.tsbackground: #aaff85; color: #000;color: #000;
+5-8-2024 17:10:01-debug: %cImport%c: C:\Users\User\Desktop\programs\FlappyDud\assets\Scripts\GameCtrl.tsbackground: #aaff85; color: #000;color: #000;
+5-8-2024 17:10:01-debug: refresh db assets success
+5-8-2024 17:10:01-debug: Run asset db hook engine-extends:afterRefresh ...
+5-8-2024 17:10:01-debug: Run asset db hook engine-extends:afterRefresh success!

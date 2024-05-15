@@ -1,0 +1,3 @@
+# directories for searching native plugins
+C:/Users/User/Desktop/programs/FlappyDud/native
+C:/Users/User/Desktop/programs/FlappyDud/extensions

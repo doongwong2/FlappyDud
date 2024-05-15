@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_2d_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_assets_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_audio_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_cocos_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_dragonbones_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_editor_support_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_extension_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_geometry_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_gfx_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_gi_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_network_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_pipeline_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_render_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_scene_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\a92a26402743b4eccad20046a9646365\jsb_spine_auto.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\b62f75463746b7bb8b14527409691f0d\genbindings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\programs\FlappyDud\native\engine\win64\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\Desktop\programs\FlappyDud\build\windows\proj\CMakeFiles\genbindings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3DA84E05-D314-3F1F-9B4A-92114955E62C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

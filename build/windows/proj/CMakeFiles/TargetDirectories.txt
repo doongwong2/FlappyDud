@@ -1,0 +1,9 @@
+C:/Users/User/Desktop/programs/FlappyDud/build/windows/proj/CMakeFiles/builtin-res.dir
+C:/Users/User/Desktop/programs/FlappyDud/build/windows/proj/CMakeFiles/cocos_engine.dir
+C:/Users/User/Desktop/programs/FlappyDud/build/windows/proj/CMakeFiles/genbindings.dir
+C:/Users/User/Desktop/programs/FlappyDud/build/windows/proj/CMakeFiles/FlappyDud.dir
+C:/Users/User/Desktop/programs/FlappyDud/build/windows/proj/CMakeFiles/copy_resource.dir
+C:/Users/User/Desktop/programs/FlappyDud/build/windows/proj/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/Desktop/programs/FlappyDud/build/windows/proj/CMakeFiles/ZERO_CHECK.dir
+C:/Users/User/Desktop/programs/FlappyDud/build/windows/proj/boost/container/CMakeFiles/boost_container.dir
+C:/Users/User/Desktop/programs/FlappyDud/build/windows/proj/boost/container/CMakeFiles/ALL_BUILD.dir
